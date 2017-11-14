@@ -1,0 +1,35 @@
+#INTRODUCTION
+
+DeepCCon, DeepRCon and DeepConPred have been tested successfully on the 64-bit ubuntu linux system.
+
+#REQUIREMENT
+(1) gcc and g++ compilers;
+(2) python and matlab programs;
+
+Here, the file "train_examples.fa" and "test_examples.fa" are just the examples.
+
+DeepCCon:
+(1)Please prepare the required feature files in the "./DeepCCon/train_data/" and "./DeepCCon/test_data/" sub-folders, according to the examples in this sub-folders;
+(2)Please change directory to the "./DeepCCon/codes/" sub-folder, the features can be extracted by running "python extract_train_features.py ../../train_examples.fa" and "python extract_test_features.py ../../test_examples.fa", respectively;
+(3)Please change directory to the "./DeepCCon/DBN/" sub-folder, the DBN model can be trained and tested by running "matlab -nosplash -nodesktop -r main".
+
+DeepRCon:
+(1)Please prepare the required feature files in the "./DeepRCon/train_data/" and "./DeepRCon/test_data/" sub-folders, according to the examples in this sub-folders;
+(2)Please change directory to the "./DeepRCon/codes/" sub-folder, the features can be extracted by running "python extract_train_features.py ../../train_examples.fa" and "python extract_test_features.py ../../test_examples.fa", respectively;
+(3)Please change directory to the "./DeepRCon/DBN/" sub-folder, the DBN model can be trained and tested by running "matlab -nosplash -nodesktop -r main".
+
+DeepConPred:
+(1)Please prepare the required feature files in the "./DeepConPred/train_data/" and "./DeepConPred/test_data/" sub-folders, according to the examples in this sub-folders;
+(2)Please change directory to the "./DeepConPred/codes/" sub-folder, the features can be extracted by running "python extract_train_features.py ../../train_examples.fa" and "python extract_test_features.py ../../test_examples.fa", respectively;
+(3)Please change directory to the "./DeepConPred/DBN/" sub-folder, the DBN model can be trained and tested by running "matlab -nosplash -nodesktop -r main".
+
+
+These three software packages will be further updated for better performance and convenient usage.
+
+
+#CONTACT
+If you have any questiones, please contact the authors: Dapeng Xiong(dpxiong@live.com), Jianyang Zeng(zengjy321@tsinghua.edu.cn) and Haipeng Gong(hgong@tsinghua.edu.cn).
+
+Thanks!
+
+Mar 9, 2017
